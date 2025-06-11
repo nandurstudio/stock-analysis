@@ -9,6 +9,7 @@ include LICENSE
 include README.md
 include CHANGELOG.md
 include CONTRIBUTING.md
+include RELEASE_NOTES.md
 
 # Include konfigurasi
 include stock_config.json
