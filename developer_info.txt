@@ -64,10 +64,10 @@ ACKNOWLEDGEMENT_3 = Komunitas Trading Indonesia untuk masukan dan pengujian
 [SUPPORT]
 # Informasi Dukungan Teknis
 SUPPORT_EMAIL = founder@nandurstudio.com                  # Email dukungan
-SUPPORT_WEBSITE = https://www.pytrade.nandurstudio.com/support    # Website dukungan
+SUPPORT_WEBSITE = https://www.pyidx.nandurstudio.com/support    # Website dukungan
 ISSUE_TRACKER = https://github.com/nandurstudio/stock-analysis/issues # Pelacak masalah
-DOCUMENTATION = https://www.pytrade.nandurstudio.com/docs         # Dokumentasi online
-FAQ_URL = https://www.pytrade.nandurstudio.com/faq                # URL FAQ
+DOCUMENTATION = https://www.pyidx.nandurstudio.com/docs         # Dokumentasi online
+FAQ_URL = https://www.pyidx.nandurstudio.com/faq                # URL FAQ
 
 # =============================================================================
 # CATATAN: 
