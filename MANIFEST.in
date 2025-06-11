@@ -1,0 +1,29 @@
+# MANIFEST.in
+# File ini menentukan file non-Python yang akan disertakan dalam distribusi
+
+# Include developer_info.txt
+include developer_info.txt
+
+# Include LICENSE dan dokumentasi
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+
+# Include konfigurasi
+include stock_config.json
+include requirements.txt
+
+# Include data & dokumentasi
+recursive-include docs *.md *.jpg *.jpeg *.png
+recursive-include examples *.py *.md
+
+# Exclude files
+exclude .gitignore
+exclude .git
+exclude __pycache__
+recursive-exclude __pycache__ *
+recursive-exclude *.egg-info *
+recursive-exclude dist *
+recursive-exclude build *
+recursive-exclude backup *

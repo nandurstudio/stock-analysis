@@ -1,0 +1,18 @@
+# FUNDING.yml
+# File ini digunakan oleh GitHub untuk menampilkan opsi pendanaan di repositori Anda
+# Untuk informasi lebih lanjut: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# Opsi Pendanaan
+github: [nandurstudio]        # GitHub Sponsors
+patreon: nandurstudio         # Patreon
+open_collective: yourproject  # Open Collective
+ko_fi: nandurstudio           # Ko-fi
+tidelift: npm/yourpackage     # Tidelift
+community_bridge: yourproject # Community Bridge
+liberapay: yourusername       # Liberapay
+issuehunt: yourusername       # IssueHunt
+otechie: yourusername         # Otechie
+custom: 
+  - https://saweria.co/nandur   # Saweria (Indonesia)
+  - https://trakteer.id/nandur  # Trakteer (Indonesia)
+  - https://paypal.me/nandur93  # PayPal custom link

@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings
+
+# Project specific
+stock_analysis_results/
+analysis_results/*.csv
+!analysis_results/*_charts/
+analysis_results/*_charts/*
+!analysis_results/.gitkeep
+*.csv
+*.txt
+!requirements.txt
+!LICENSE.txt
+!README.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# Custom exclusions for transaction history
+!transaction_history/
+transaction_history/*.csv
+!transaction_history/.gitkeep
+
+# Temporary format test files
+*formatting_test_result.txt
+*example_report.md
+test_*.py
+test_complete_format.py
+
+# Documentation
+!docs/
+!docs/images/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development files
+*.local
+*.env
+*.log
