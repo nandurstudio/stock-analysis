@@ -5,7 +5,7 @@
 ## Deskripsi
 Stock Analysis & Trading Recommendation Tool adalah aplikasi command-line berbasis Python yang membantu investor dan trader untuk menganalisis saham, mencatat transaksi trading, dan mendapatkan rekomendasi berdasarkan analisis teknikal dan fundamental.
 
-[![Python Tests](https://github.com/yourusername/stock-analysis/actions/workflows/python-tests.yml/badge.svg)](https://github.com/yourusername/stock-analysis/actions/workflows/python-tests.yml)
+[![Python Tests](https://github.com/nandurstudio/stock-analysis/actions/workflows/python-tests.yml/badge.svg)](https://github.com/nandurstudio/stock-analysis/actions/workflows/python-tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
 
@@ -54,7 +54,7 @@ Proses ini akan:
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/yourusername/stock-analysis.git
+   git clone https://github.com/nandurstudio/stock-analysis.git
    cd stock-analysis
    ```
 
