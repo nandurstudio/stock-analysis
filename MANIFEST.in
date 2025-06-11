@@ -15,8 +15,15 @@ include stock_config.json
 include requirements.txt
 
 # Include data & dokumentasi
-recursive-include docs *.md *.jpg *.jpeg *.png
+recursive-include docs *.md *.jpg *.jpeg *.png *.svg
 recursive-include examples *.py *.md
+recursive-include transaction_history *.csv
+recursive-include analysis_results *.png
+
+# Include file eksekusi
+include install.bat
+include run_stock_analyzer.bat
+include pytest.ini
 
 # Exclude files
 exclude .gitignore

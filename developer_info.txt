@@ -1,0 +1,80 @@
+# DEVELOPER & PROJECT INFORMATION
+# File ini berisi informasi tentang pengembang dan proyek Stock Analysis & Trading Recommendation Tool
+# Silahkan isi informasi di bawah ini dengan data Anda
+
+[DEVELOPER_INFO]
+# Informasi Pengembang Utama
+DEVELOPER_NAME = Stock Analysis Developer Team       # Nama pengembang (individu atau tim)
+DEVELOPER_EMAIL = founder@nandurstudio.com           # Email kontak utama
+DEVELOPER_WEBSITE = https://wa.me/nandurstudio       # Website pribadi/bisnis
+PHONE_NUMBER = +62 819 0683 3070                     # Nomor telepon (opsional)
+
+# Informasi Bisnis (jika aplikasi ini dikembangkan oleh bisnis/perusahaan)
+COMPANY_NAME = Nandur Studio                         # Nama perusahaan (jika ada)
+COMPANY_ADDRESS = Karawang, Indonesia                # Alamat perusahaan (jika ada)
+BUSINESS_LICENSE = -                                 # Nomor izin usaha (jika ada)
+
+[SOCIAL_MEDIA]
+# Akun Media Sosial (isi dengan username/URL)
+GITHUB = https://github.com/nandurstudio             # Akun GitHub
+LINKEDIN = https://linkedin.com/in/nandangduryat     # Akun LinkedIn
+TWITTER = https://twitter.com/NandurStudio           # Akun Twitter/X
+INSTAGRAM = https://instagram.com/nandangduryat      # Akun Instagram
+FACEBOOK = https://facebook.com/nandangduryat        # Akun/Halaman Facebook
+YOUTUBE = https://youtube.com/c/nandurstudio         # Kanal YouTube
+DISCORD = https://discord.gg/nQazxZb5                # Server/Invite Discord
+
+[PROJECT_INFO]
+# Informasi Proyek
+PROJECT_NAME = Stock Analysis & Trading Recommendation Tool
+VERSION = 1.0.0
+RELEASE_DATE = 11 Juni 2025
+LICENSE = MIT
+REPOSITORY = https://github.com/nandurstudio/stock-analysis
+
+# Deskripsi Singkat Proyek (gunakan sebagai tagline)
+PROJECT_TAGLINE = Alat analisis saham dan rekomendasi trading komprehensif berbasis Python
+
+# Deskripsi Panjang (dapat digunakan untuk deskripsi marketplace)
+PROJECT_DESCRIPTION = Stock Analysis & Trading Recommendation Tool adalah aplikasi command-line berbasis Python yang membantu investor dan trader untuk menganalisis saham, mencatat transaksi trading, dan mendapatkan rekomendasi berdasarkan analisis teknikal dan fundamental. Aplikasi ini menyediakan analisis teknikal komprehensif, pencatatan transaksi, rekomendasi trading profesional, analisis riwayat transaksi, dan manajemen risiko.
+
+[FUNDING]
+# Informasi Donasi/Pendanaan (jika Anda ingin mendapatkan dukungan finansial)
+PAYPAL = paypal.me/nandur93                                 # URL PayPal.me
+PATREON = https://patreon.com/nandurstudio                  # URL Patreon
+KO_FI = https://ko-fi.com/nandurstudio                      # URL Ko-fi
+GITHUB_SPONSORS = https://github.com/sponsors/nandurstudio  # URL GitHub Sponsors
+OPEN_COLLECTIVE = https://opencollective.com/nandurstudio   # URL Open Collective
+SAWERIA = https://saweria.co/nandur                         # URL Saweria (Indonesia)
+TRAKTEER = https://trakteer.id/nandur                       # URL Trakteer (Indonesia)
+
+[CONTRIBUTORS]
+# Daftar Kontributor Utama (selain pengembang utama)
+# Format: NAMA = EMAIL, PERAN
+CONTRIBUTOR_1 = John Doe, john@example.com, Technical Analysis Expert
+CONTRIBUTOR_2 = Jane Smith, jane@example.com, UI/UX Design
+# Tambahkan kontributor lain jika ada
+
+[ACKNOWLEDGEMENTS]
+# Pengakuan dan Terima Kasih (individu/organisasi yang membantu)
+ACKNOWLEDGEMENT_1 = Bursa Efek Indonesia untuk data pasar saham
+ACKNOWLEDGEMENT_2 = Python Software Foundation
+ACKNOWLEDGEMENT_3 = Komunitas Trading Indonesia untuk masukan dan pengujian
+
+[SUPPORT]
+# Informasi Dukungan Teknis
+SUPPORT_EMAIL = founder@nandurstudio.com                  # Email dukungan
+SUPPORT_WEBSITE = https://www.pytrade.nandurstudio.com/support    # Website dukungan
+ISSUE_TRACKER = https://github.com/nandurstudio/stock-analysis/issues # Pelacak masalah
+DOCUMENTATION = https://www.pytrade.nandurstudio.com/docs         # Dokumentasi online
+FAQ_URL = https://www.pytrade.nandurstudio.com/faq                # URL FAQ
+
+# =============================================================================
+# CATATAN: 
+# File ini digunakan sebagai sumber informasi terpusat untuk:
+# 1. Templat README.md dan dokumentasi
+# 2. Metadata aplikasi
+# 3. Informasi kontak di aplikasi
+# 4. Informasi lisensi dan hak cipta
+# 5. Halaman About/Tentang di aplikasi
+# =============================================================================

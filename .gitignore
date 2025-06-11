@@ -44,10 +44,25 @@ analysis_results/*_charts/*
 *.csv
 *.txt
 !requirements.txt
-!LICENSE.txt
+!LICENSE
 !README.md
 !CHANGELOG.md
 !CONTRIBUTING.md
+!developer_info.txt
+!pytest.ini
+
+# Distribution files to keep
+!install.bat
+!run_stock_analyzer.bat
+!setup.py
+!MANIFEST.in
+
+# Documentation
+!docs/*.md
+!docs/*.txt
+!docs/images/*
+!examples/*.py
+!examples/README.md
 
 # Custom exclusions for transaction history
 !transaction_history/

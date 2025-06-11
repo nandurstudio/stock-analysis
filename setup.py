@@ -6,14 +6,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
 with open("requirements.txt", "r", encoding="utf-8") as f:
     requirements = f.read().splitlines()
 
-setup(    name="stock-analysis-tool",
+setup(
+    name="stock-analysis-tool",
     version="1.0.0",
     author="Stock Analysis Developer Team",
-    author_email="stock.analysis.dev@example.com",
+    author_email="founder@nandurstudio.com",
     description="Stock Analysis and Trading Recommendation Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/stock-analysis-dev/stock-analysis",    packages=find_packages(include=['src', 'src.*']),
+    url="https://github.com/nandurstudio/stock-analysis",packages=find_packages(include=['src', 'src.*']),
     package_data={
         'src': ['**/*.json', '**/*.csv'],
         '': ['developer_info.txt'],
