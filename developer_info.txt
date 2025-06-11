@@ -4,30 +4,30 @@
 
 [DEVELOPER_INFO]
 # Informasi Pengembang Utama
-DEVELOPER_NAME = Stock Analysis Developer Team       # Nama pengembang (individu atau tim)
-DEVELOPER_EMAIL = founder@nandurstudio.com           # Email kontak utama
-DEVELOPER_WEBSITE = https://wa.me/nandurstudio       # Website pribadi/bisnis
-PHONE_NUMBER = +62 819 0683 3070                     # Nomor telepon (opsional)
+DEVELOPER_NAME = Stock Analysis Developer Team
+DEVELOPER_EMAIL = founder@nandurstudio.com
+DEVELOPER_WEBSITE = https://wa.me/nandurstudio
+PHONE_NUMBER = +62 819 0683 3070
 
 # Informasi Bisnis (jika aplikasi ini dikembangkan oleh bisnis/perusahaan)
-COMPANY_NAME = Nandur Studio                         # Nama perusahaan (jika ada)
-COMPANY_ADDRESS = Karawang, Indonesia                # Alamat perusahaan (jika ada)
-BUSINESS_LICENSE = -                                 # Nomor izin usaha (jika ada)
+COMPANY_NAME = Nandur Studio
+COMPANY_ADDRESS = Karawang, Indonesia
+BUSINESS_LICENSE = -
 
 [SOCIAL_MEDIA]
 # Akun Media Sosial (isi dengan username/URL)
-GITHUB = https://github.com/nandurstudio             # Akun GitHub
-LINKEDIN = https://linkedin.com/in/nandangduryat     # Akun LinkedIn
-TWITTER = https://twitter.com/NandurStudio           # Akun Twitter/X
-INSTAGRAM = https://instagram.com/nandangduryat      # Akun Instagram
-FACEBOOK = https://facebook.com/nandangduryat        # Akun/Halaman Facebook
-YOUTUBE = https://youtube.com/c/nandurstudio         # Kanal YouTube
-DISCORD = https://discord.gg/nQazxZb5                # Server/Invite Discord
+GITHUB = https://github.com/nandurstudio
+LINKEDIN = https://linkedin.com/in/nandangduryat
+TWITTER = https://twitter.com/NandurStudio
+INSTAGRAM = https://instagram.com/nandangduryat
+FACEBOOK = https://facebook.com/nandangduryat
+YOUTUBE = https://youtube.com/c/nandurstudio
+DISCORD = https://discord.gg/nQazxZb5
 
 [PROJECT_INFO]
 # Informasi Proyek
 PROJECT_NAME = Stock Analysis & Trading Recommendation Tool
-VERSION = v1.0.0
+VERSION = v1.1.0
 RELEASE_DATE = 11 Juni 2025
 LICENSE = MIT
 REPOSITORY = https://github.com/nandurstudio/stock-analysis
@@ -40,13 +40,13 @@ PROJECT_DESCRIPTION = Stock Analysis & Trading Recommendation Tool adalah aplika
 
 [FUNDING]
 # Informasi Donasi/Pendanaan (jika Anda ingin mendapatkan dukungan finansial)
-PAYPAL = paypal.me/nandur93                                 # URL PayPal.me
-PATREON = https://patreon.com/nandurstudio                  # URL Patreon
-KO_FI = https://ko-fi.com/nandurstudio                      # URL Ko-fi
-GITHUB_SPONSORS = https://github.com/sponsors/nandurstudio  # URL GitHub Sponsors
-OPEN_COLLECTIVE = https://opencollective.com/nandurstudio   # URL Open Collective
-SAWERIA = https://saweria.co/nandur                         # URL Saweria (Indonesia)
-TRAKTEER = https://trakteer.id/nandur                       # URL Trakteer (Indonesia)
+PAYPAL = paypal.me/nandur93
+PATREON = https://patreon.com/nandurstudio
+KO_FI = https://ko-fi.com/nandurstudio
+GITHUB_SPONSORS = https://github.com/sponsors/nandurstudio
+OPEN_COLLECTIVE = https://opencollective.com/nandurstudio
+SAWERIA = https://saweria.co/nandur
+TRAKTEER = https://trakteer.id/nandur
 
 [CONTRIBUTORS]
 # Daftar Kontributor Utama (selain pengembang utama)
@@ -63,11 +63,11 @@ ACKNOWLEDGEMENT_3 = Komunitas Trading Indonesia untuk masukan dan pengujian
 
 [SUPPORT]
 # Informasi Dukungan Teknis
-SUPPORT_EMAIL = founder@nandurstudio.com                        # Email dukungan
-SUPPORT_WEBSITE = https://www.pyidx.nandurstudio.com/support    # Website dukungan
-ISSUE_TRACKER = https://github.com/nandurstudio/stock-analysis/issues # Pelacak masalah
-DOCUMENTATION = https://www.pyidx.nandurstudio.com/docs         # Dokumentasi online
-FAQ_URL = https://www.pyidx.nandurstudio.com/faq                # URL FAQ
+SUPPORT_EMAIL = founder@nandurstudio.com
+SUPPORT_WEBSITE = https://www.pyidx.nandurstudio.com/support
+ISSUE_TRACKER = https://github.com/nandurstudio/stock-analysis/issues
+DOCUMENTATION = https://www.pyidx.nandurstudio.com/docs
+FAQ_URL = https://www.pyidx.nandurstudio.com/faq
 
 # =============================================================================
 # CATATAN: 

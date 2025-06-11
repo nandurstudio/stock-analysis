@@ -17,6 +17,12 @@ Folder `images/` berisi screenshot dan diagram yang digunakan dalam dokumentasi:
 - `trade_analysis.jpeg` - Contoh analisis perdagangan
 - `trade_result.jpeg` - Contoh hasil perdagangan
 
+### Panduan GUI (Baru di v1.1.0)
+- Jalankan aplikasi GUI dengan `run_gui_app.bat`
+- Navigasi tab: Analisis Saham, Riwayat Transaksi, Tambah Transaksi, Kelola Saham, Tentang
+- Chart candlestick interaktif dan output analisis lengkap tersedia di tab Analisis
+- Info developer/proyek otomatis dari `developer_info.txt`
+
 ## Mengakses Dokumentasi
 
 Anda dapat membuka dokumentasi dengan cara:

@@ -25,7 +25,7 @@ Jika memungkinkan, tambahkan screenshot untuk membantu menjelaskan masalah Anda.
 **Informasi Sistem (harap lengkapi):**
  - OS: [contoh: Windows 10]
  - Python Version: [contoh: 3.10.0]
- - Version Aplikasi [contoh: v1.0.0]
+ - Version Aplikasi [contoh: v1.1.0]
 
 **Informasi Tambahan**
 Tambahkan informasi lain tentang masalah ini di sini.

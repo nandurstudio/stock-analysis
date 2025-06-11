@@ -183,8 +183,11 @@ def analyze_stock_with_history(symbol, period="1y", output_dir="analysis_results
     viz.plot_technical_indicators(title=f"{symbol} Technical Analysis", 
                                 save_path=os.path.join(charts_dir, "technical_analysis.png"))
     
-    viz.plot_candlestick_pattern(title=f"{symbol} Candlestick Chart", 
-                       save_path=os.path.join(charts_dir, "candlestick.png"))
+    viz.plot_candlestick_pattern(
+        title=f"{symbol} Candlestick Chart",
+        save_path=os.path.join(charts_dir, "candlestick.png"),
+        position_price=position_summary.get('avg_buy_price', None)
+    )
       # Optional prediction
     try:
         print("Membuat prediksi harga...")

@@ -130,11 +130,10 @@ class StockVisualizer:
             plt.close()
         return fig
         
-    def plot_candlestick_pattern(self, title=None, save_path=None):
-        """Plot candlestick chart with volume"""
+    def plot_candlestick_pattern(self, title=None, save_path=None, position_price=None):
+        """Plot candlestick chart with volume and optional position marker"""
         fig = plt.figure(figsize=(12, 8))
         gs = GridSpec(2, 1, figure=fig, height_ratios=[3, 1])
-        
         ax1 = fig.add_subplot(gs[0])
         ax2 = fig.add_subplot(gs[1])
         
@@ -153,6 +152,10 @@ class StockVisualizer:
         ax1.bar(down.index, down['High'] - down['Open'], width/5, bottom=down['Open'], color='r', alpha=0.6)
         ax1.bar(down.index, down['Low'] - down['Close'], width/5, bottom=down['Close'], color='r', alpha=0.6)
         
+        # Tambahkan garis posisi jika diberikan
+        if position_price is not None and position_price > 0:
+            ax1.axhline(y=position_price, color='orange', linestyle='--', linewidth=2, label='Posisi Saya')
+            ax1.legend()
         ax1.set_title(title or 'Candlestick Chart')
         ax1.set_ylabel('Price')
         ax1.grid(True)

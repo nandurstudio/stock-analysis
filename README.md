@@ -1,4 +1,4 @@
-# Stock Analysis & Trading Recommendation Tool v1.0.1
+# Stock Analysis & Trading Recommendation Tool v1.1.0
 
 ![Stock Analysis & Trading Recommendation Tool](docs/images/main_menu.jpeg)
 
@@ -10,28 +10,35 @@ Stock Analysis & Trading Recommendation Tool adalah aplikasi command-line berbas
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
 
 ## Fitur Utama
-1. **Analisis Teknikal Komprehensif**
+1. **Antarmuka GUI Modern (Baru di v1.1.0)**
+   - Analisis saham, pencatatan transaksi, dan visualisasi chart langsung dari GUI
+   - Tab Analisis Saham, Riwayat Transaksi, Tambah Transaksi, Kelola Saham, dan Tentang
+   - Output analisis lengkap dan chart candlestick interaktif dengan penanda posisi user
+   - Tab Tentang dinamis (info dari `developer_info.txt`)
+   - Jalankan GUI dengan mudah via `run_gui_app.bat`
+
+2. **Analisis Teknikal Komprehensif**
    - Menghitung indikator teknikal seperti RSI, MACD, Bollinger Bands, SMA, EMA
    - Memvisualisasikan data saham dan indikator teknikal
    - Mengidentifikasi tren dan sinyal trading
 
-2. **Pencatatan Transaksi**
+3. **Pencatatan Transaksi**
    - Mencatat transaksi BUY/SELL dalam file CSV
    - Menghitung profit/loss untuk setiap transaksi
    - Menyimpan detail seperti harga, jumlah, tanggal, dan status transaksi
 
-3. **Rekomendasi Trading Profesional**
+4. **Rekomendasi Trading Profesional**
    - Memberikan rekomendasi BUY/HOLD/SELL/SHORT SELL berdasarkan analisis teknikal
    - Menghitung tingkat keyakinan untuk rekomendasi
    - Menyertakan alasan dan penjelasan sederhana untuk rekomendasi
    - Menyesuaikan rekomendasi berdasarkan posisi saham saat ini
 
-4. **Analisis Riwayat Transaksi**
+5. **Analisis Riwayat Transaksi**
    - Menganalisis pola trading berdasarkan transaksi sebelumnya
    - Menghitung win rate dan metrik performa trading
    - Menyesuaikan rekomendasi berdasarkan gaya trading dan preferensi pengguna
 
-5. **Manajemen Risiko**
+6. **Manajemen Risiko**
    - Merekomendasikan level stop loss dan target profit
    - Menghitung rasio risk-to-reward untuk setiap trade
    - Menyarankan posisi sizing berdasarkan profil risiko
@@ -76,7 +83,8 @@ Proses ini akan:
 
 ### Opsi 1: Menggunakan file batch (Windows)
 ```bash
-run_stock_analyzer.bat
+run_stock_analyzer.bat   # Untuk CLI
+run_gui_app.bat          # Untuk GUI (Baru di v1.1.0)
 ```
 
 ### Opsi 2: Eksekusi langsung
@@ -191,22 +199,28 @@ File transaksi disimpan di `transaction_history/transaction_history.csv` dengan 
 
 ## Update Terbaru (Juni 2025)
 
-### Pembaruan Rekomendasi Trading
-- Sistem sekarang membedakan antara rekomendasi JUAL (untuk saham yang dimiliki) dan SHORT SELL (untuk saham yang tidak dimiliki)
-- Algoritma pengecekan posisi saham yang lebih akurat sebelum memberikan rekomendasi
-- Perhitungan trailing stop khusus untuk strategi short selling
+### v1.1.0 (GUI Release)
+- Penambahan antarmuka GUI modern berbasis PyQt5
+- Analisis saham, pencatatan transaksi, dan visualisasi chart kini tersedia di GUI
+- Tab Tentang dinamis, batch launcher GUI, dan validasi input lebih baik
 
-### Penyempurnaan UI dan Navigasi
-- Tampilan rekomendasi lebih menonjol dengan penggunaan kotak visual
-- Format penjelasan trading yang lebih terstruktur dengan bullet points
-- Indikator teknikal yang lebih jelas dengan penggunaan emoji dan header yang konsisten
-- Sistem navigasi yang lebih intuitif dengan fitur "Tekan Enter untuk kembali ke menu utama" di semua submenu
-- Alur kerja yang lebih sederhana tanpa harus mengingat nomor khusus untuk kembali
+### v1.0.0 (rilis awal)
+- Pembaruan Rekomendasi Trading
+  - Sistem sekarang membedakan antara rekomendasi JUAL (untuk saham yang dimiliki) dan SHORT SELL (untuk saham yang tidak dimiliki)
+  - Algoritma pengecekan posisi saham yang lebih akurat sebelum memberikan rekomendasi
+  - Perhitungan trailing stop khusus untuk strategi short selling
 
-### Dokumentasi yang Lebih Baik
-- Panduan penggunaan yang lebih ramah untuk pemula
-- Dokumentasi lengkap tentang strategi short selling
-- Penjelasan indikator teknikal yang lebih detail
+- Penyempurnaan UI dan Navigasi
+  - Tampilan rekomendasi lebih menonjol dengan penggunaan kotak visual
+  - Format penjelasan trading yang lebih terstruktur dengan bullet points
+  - Indikator teknikal yang lebih jelas dengan penggunaan emoji dan header yang konsisten
+  - Sistem navigasi yang lebih intuitif dengan fitur "Tekan Enter untuk kembali ke menu utama" di semua submenu
+  - Alur kerja yang lebih sederhana tanpa harus mengingat nomor khusus untuk kembali
+
+- Dokumentasi yang Lebih Baik
+  - Panduan penggunaan yang lebih ramah untuk pemula
+  - Dokumentasi lengkap tentang strategi short selling
+  - Penjelasan indikator teknikal yang lebih detail
 
 ## Struktur Dokumentasi
 - **README.md** - Informasi umum tentang aplikasi

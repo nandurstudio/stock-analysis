@@ -28,8 +28,8 @@
 2. **Buat release baru**:
    - Klik tab "Releases"
    - Klik "Draft a new release"
-   - Masukkan tag versi (contoh: `v1.0.0`)
-   - Masukkan judul release (contoh: "Stock Analysis & Trading Recommendation Tool v1.0.0")
+   - Masukkan tag versi (contoh: `v1.1.0`)
+   - Masukkan judul release (contoh: "Stock Analysis & Trading Recommendation Tool v1.1.0")
    - Salin isi file `dist/RELEASE_NOTES.md` ke deskripsi release
 
 3. **Upload file distribusi**:

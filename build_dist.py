@@ -46,13 +46,13 @@ def build_executable():
 
 def create_release_notes():
     """Create release notes in the dist directory"""
-    version = "1.0.0"  # You might want to read this from your package
+    version = "1.1.0"  # You might want to read this from your package
     
     with open(os.path.join("dist", "RELEASE_NOTES.md"), "w") as f:
         f.write(f"# Stock Analysis & Trading Recommendation Tool v{version}\n\n")
         f.write(f"Release Date: {datetime.now().strftime('%d %B %Y')}\n\n")
         f.write("## What's New\n\n")
-        f.write("- Initial release of Stock Analysis & Trading Recommendation Tool\n")
+        f.write("- GUI release with interactive charts and transaction management\n")
         f.write("- Comprehensive technical analysis features\n")
         f.write("- Transaction history tracking\n")
         f.write("- Trading recommendations based on technical indicators\n\n")

@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 
 setup(
     name="stock-analysis-tool",
-    version="1.0.0",
+    version="1.1.0",
     author="Stock Analysis Developer Team",
     author_email="founder@nandurstudio.com",
     description="Stock Analysis and Trading Recommendation Tool",

@@ -67,8 +67,8 @@ def main():
     # Configuration
     owner = "nandurstudio"
     repo = "stock-analysis"
-    tag_name = "v1.0.0"
-    release_name = "PyIDX Community Stock Analysis Tool v1.0.0"
+    tag_name = "v1.1.0"
+    release_name = "PyIDX Community Stock Analysis Tool v1.1.0"
     
     # Get GitHub token from environment variable
     token = os.getenv("GITHUB_TOKEN")
