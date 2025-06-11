@@ -27,7 +27,7 @@ DISCORD = https://discord.gg/nQazxZb5                # Server/Invite Discord
 [PROJECT_INFO]
 # Informasi Proyek
 PROJECT_NAME = Stock Analysis & Trading Recommendation Tool
-VERSION = 1.0.0
+VERSION = v1.0.0
 RELEASE_DATE = 11 Juni 2025
 LICENSE = MIT
 REPOSITORY = https://github.com/nandurstudio/stock-analysis
@@ -63,7 +63,7 @@ ACKNOWLEDGEMENT_3 = Komunitas Trading Indonesia untuk masukan dan pengujian
 
 [SUPPORT]
 # Informasi Dukungan Teknis
-SUPPORT_EMAIL = founder@nandurstudio.com                  # Email dukungan
+SUPPORT_EMAIL = founder@nandurstudio.com                        # Email dukungan
 SUPPORT_WEBSITE = https://www.pyidx.nandurstudio.com/support    # Website dukungan
 ISSUE_TRACKER = https://github.com/nandurstudio/stock-analysis/issues # Pelacak masalah
 DOCUMENTATION = https://www.pyidx.nandurstudio.com/docs         # Dokumentasi online

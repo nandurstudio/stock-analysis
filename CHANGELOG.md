@@ -5,33 +5,23 @@ Semua perubahan penting pada proyek ini akan didokumentasikan dalam file ini.
 Format berdasarkan [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 dan proyek ini mengikuti [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.1] - 2025-06-11
+## [v1.0.0] - 2025-06-11
 
-### Ditambahkan
-- Navigasi yang lebih intuitif dengan fitur "Tekan Enter untuk kembali ke menu utama" di semua submenu
-- Alur kerja yang lebih sederhana tanpa harus mengingat nomor khusus untuk kembali
-
-### Diperbaiki
-- Konsistensi pengalaman pengguna di semua menu aplikasi
-- Navigasi antar menu yang lebih jelas dan mudah diingat
-
-## [1.0.0] - 2025-06-10
-
-### Ditambahkan
+### Added
 - Sistem analisis teknikal komprehensif
-- Pelacakan transaksi dengan penghitungan profit/loss
-- Rekomendasi trading berdasarkan analisis teknikal
-- Analisis histori transaksi
-- Manajemen risiko dengan level stop loss dan target profit
-- Visualisasi data saham dan indikator teknikal
+- Manajemen portofolio dan pencatatan transaksi
+- Visualisasi data interaktif
+- Rekomendasi trading otomatis
+- Dokumentasi lengkap dalam Bahasa Indonesia
+- Contoh penggunaan dan test cases
+- Branding PyIDX Community dengan logo baru
 
-### Diperbaiki
-- Bug pada perbandingan string dan timestamp
-- Error saat membuat prediksi untuk saham dengan data terbatas
+### Changed
+- Restrukturisasi kode untuk modularitas lebih baik
+- Optimasi performa untuk analisis data besar
+- Peningkatan akurasi prediksi
 
-## [0.9.0] - 2025-05-15
-
-### Ditambahkan
-- Implementasi awal analisis teknikal
-- Struktur dasar untuk pelacakan transaksi
-- Fitur dasar visualisasi data saham
+### Fixed
+- Validasi input data yang lebih baik
+- Penanganan error yang lebih robust
+- Masalah kompatibilitas Python versi 3.9+
